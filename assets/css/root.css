@@ -9,14 +9,25 @@
 --fs-14:14px;
 --fs-12:12px
 }
-
+.fs-16{
+    font-size: var(--fs-16);
+}
+.fs-48{
+    font-size: var(--fs-48);
+}
 /* color */
 
 :root{
     --color-blue:rgba(44, 73, 254);
     --color-white:rgba(255,255,255);
     --color-black:rgba(0,0,0,1);
-    /* --color-grey:rgba() */
+    --color-grey:rgba(102,102,102);
     --bg-blue:rgba(44, 73, 254);
     --bg-white:rgba(255, 255, 255);
+}
+.color-grey {
+    color: var(--color-grey) !important;
+}
+.bg-blue{
+    background-color: var(--bg-blue);
 }
