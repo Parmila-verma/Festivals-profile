@@ -1,0 +1,22 @@
+
+/* font-size */
+
+:root{
+--fs-16:16px;
+--fs-36:36px;
+--fs-48:48px;
+--fs-20:20px;
+--fs-14:14px;
+--fs-12:12px
+}
+
+/* color */
+
+:root{
+    --color-blue:rgba(44, 73, 254);
+    --color-white:rgba(255,255,255);
+    --color-black:rgba(0,0,0,1);
+    /* --color-grey:rgba() */
+    --bg-blue:rgba(44, 73, 254);
+    --bg-white:rgba(255, 255, 255);
+}
