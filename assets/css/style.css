@@ -257,6 +257,9 @@ footer ul li {
     background-color: rgba(24, 32, 92);
 }
 
+.footer-para{
+    max-width: 346px;
+}
 @media (max-width:992px) {
     .item-2 {
         grid-row: 2/3;
