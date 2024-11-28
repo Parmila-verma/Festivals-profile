@@ -96,7 +96,8 @@ nav li:first-child {
 
 .nav-btn:hover,
 .Journey-btna:hover,
-.Journey-btn:hover {
+.Journey-btn:hover,
+.post-btn:hover {
     border-radius: 10px;
 }
 
@@ -173,8 +174,52 @@ nav li:first-child {
     grid-column: 2/4;
 }
 
+/* section-4 */
+.tell-us-para {
+    max-width: 719px;
+}
 
+.new-comment-box {
+    border-radius: 35px;
+    border: 1px solid var(--color-grey);
+}
 
+.post-btn {
+    background-color: var(--bg-blue);
+    border: var(--color-white);
+    border-radius: 36px;
+    padding: 13px 28px;
+    font-weight: 600;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-4 input {
+    width: 100% !important;
+    height: 100% !important;
+    padding-left: 80px !important;
+    padding: 20px 10px;
+    border-radius: 35px;
+    border: 1px solid var(--color-grey);
+}
+
+.section4-svg {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.comment-box{
+    background: rgba(241, 242, 245, 1);
+    border-radius: 20px;
+    border-top-left-radius: 0px !important;
+}
+
+.delete-svg{
+    fill: rgb(174, 170, 170);
+    cursor: pointer;
+}
 
 @media (max-width:992px) {
     .item-2 {
@@ -269,5 +314,4 @@ nav li:first-child {
     .section-1.svg {
         padding-left: 0px;
     }
-
 }

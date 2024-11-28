@@ -24,10 +24,15 @@
     --color-grey:rgba(102,102,102);
     --bg-blue:rgba(44, 73, 254);
     --bg-white:rgba(255, 255, 255);
+    --bg-grey:rgba(102, 102, 102);
 }
 .color-grey {
     color: var(--color-grey) !important;
 }
 .bg-blue{
     background-color: var(--bg-blue);
+}
+
+.bg-grey{
+    background-color: var(--bg-grey);
 }
