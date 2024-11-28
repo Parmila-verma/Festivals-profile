@@ -2,18 +2,26 @@
 /* font-size */
 
 :root{
---fs-16:16px;
---fs-36:36px;
---fs-48:48px;
+--fs-md:16px;
+--fs-lg:36px;
+--fs-xl:48px;
 --fs-20:20px;
---fs-14:14px;
+--fs-sm:14px;
 --fs-12:12px
 }
-.fs-16{
-    font-size: var(--fs-16);
+.fs-md{
+    font-size: var(--fs-md);
 }
-.fs-48{
-    font-size: var(--fs-48);
+
+.fs-12{
+    font-size: var(--fs-12);
+}
+
+.fs-sm{
+    font-size: var(--fs-14);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
 }
 /* color */
 
@@ -35,4 +43,11 @@
 
 .bg-grey{
     background-color: var(--bg-grey);
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-lg: 25px;
+        --fs-xl: 30px;
+    }
 }
