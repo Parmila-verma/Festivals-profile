@@ -24,6 +24,7 @@
     position: sticky;
     z-index: 100;
     background-color: #ffff;
+    box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.05);
     top: 0px;
 }
 
@@ -37,9 +38,7 @@
     color: rgba(1, 200, 255);
 }
 
-nav {
-    box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.05);
-}
+
 
 nav ul {
     width: 100%;
@@ -47,11 +46,14 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 0% !important;
+    padding-left: 0% !important;
 }
 
 nav li {
     height: 70px;
     padding: 0px 20px;
+    padding-left: 0% !important;
 }
 
 nav a {
@@ -228,7 +230,7 @@ nav li:first-child {
     border-top-left-radius: 0px !important;
 }
 
-.done{
+.done {
     display: none !important;
 }
 
@@ -257,9 +259,10 @@ footer ul li {
     background-color: rgba(24, 32, 92);
 }
 
-.footer-para{
+.footer-para {
     max-width: 346px;
 }
+
 @media (max-width:992px) {
     .item-2 {
         grid-row: 2/3;
@@ -358,20 +361,23 @@ footer ul li {
     .section-1.svg {
         padding-left: 0px;
     }
-.post-btn{
-    display: none;
-}
-.done{
-    display: block !important;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-.svg-btn{
-       background-color: var(--bg-blue);
-       border: var(--color-white);
-       border-radius: 36px;
-       padding: 15px 20px;
-}
+
+    .post-btn {
+        display: none;
+    }
+
+    .done {
+        display: block !important;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .svg-btn {
+        background-color: var(--bg-blue);
+        border: var(--color-white);
+        border-radius: 36px;
+        padding: 15px 20px;
+    }
 }
